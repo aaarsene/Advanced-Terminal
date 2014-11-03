@@ -58,7 +58,6 @@ int kbhit(void)
 // Sélection des attributs
 #define textattr(param) printf("\033[%dm",param)
 
-#define textattrV(param) printf("\033[%dm",param)
 // Place le curseur à la position x, y
 #define gotoxy(x, y) printf("\033[%d;%dH", y+1,x+1)
 
